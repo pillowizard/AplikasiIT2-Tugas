@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title> IF Hotel </title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="content">
+		<script language="JavaScript" src="script.js"></script>
+		<form name="form">
+		<h3>Cek Harga</h3>
+				<div id="home">
+				    <label for="kamar">Tipe Kamar <label id="required">*</label></label><br>
+				    <select name="kamar">
+				    	<option value="" disabled selected hidden>Pilih Tipe Kamar</option>
+				      	<option value="Deluxe">Deluxe</option>
+				      	<option value="Family">Family</option>
+				      	<option value="Standard">Standard</option>
+				    </select><br>
+				    <label for="lama">Lama Tinggal <label id="required">*</label></label><br>
+				    <input type="number" name="lama" min="1"> Hari<br>
+				    <label for="fasilitas">Fasilitas Tambahan</label><br>
+					<div id="check">
+						<input type="checkbox" name="internet">
+						<label for="Internet">Exclusive Internet</label>
+						<br>
+						<input type="checkbox" name="extrabed">
+						<label for="extrabed">Extrabed</label>
+						<br>
+						<input type="checkbox" name="fitness">
+						<label for="fitness">Fitness</label>
+						<br>
+						<input type="checkbox" name="laundry">
+						<label for="laundry">Laundry</label>
+				    </div>
+				    <label for="hasil">Total Harga</label><br>
+				    <input type="text" name="hasil" id="hsl" disabled="true"><br>
+				    <input type="button" value="Cek Tarif" onclick = "hitung(form)">
+				    <input type="button" value="Bersih" onclick = "reset(form)">
+			    </div>
+	</body>
+</html>

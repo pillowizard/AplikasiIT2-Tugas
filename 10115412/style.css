@@ -1,0 +1,205 @@
+body
+{
+    margin:0;
+    font-family: arial;
+    font-size: 14pt;
+    color: black;
+}
+
+h3
+{
+    padding: 20px 0px 0px 40px;
+}
+
+h2
+{
+    padding: 13px 0px 5px 20px;
+}
+
+input[type=text]
+{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=number]
+{
+    width: 13%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button]
+{
+    width: 10%;
+    background-color: #29a6d2;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=button]:hover
+{
+    background-color: #249dc7;
+}
+
+select
+{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea
+{
+    width: 50%;
+    height: 120px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    resize: none;
+}
+
+div
+{
+    background-color: #ededed;
+    padding: 0px 40px 40px 40px;
+}
+
+#header
+{
+    background: #333;
+    font: arial;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#content
+{
+    background: #ededed;
+}
+
+#logo
+{
+    padding-left: 20px;
+    text-align: left;
+    font-family: Lucida Handwriting;
+}
+
+#buttonmenu
+{
+    width: 70%;
+    padding: 14px 20px;
+    margin: 10% 4px 10px 10%;
+
+}
+
+#hsl
+{
+    width: 20%;
+}
+
+#check
+{
+    width: 230px;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+#menuradio
+{
+    margin: 10px 10px 0px 30px;
+}
+
+#home
+{
+    margin: 30px 30px 20px 30px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 6px;
+    text-align: justify;
+}
+#required
+{
+    color: #ff0000;
+}
+
+#form
+{
+    background-color: #ffffff;
+    padding: 20px 0px 20px 40px;
+    margin-bottom: 20px;
+    border-bottom-right-radius:6px;
+    border-bottom-left-radius:6px;
+}
+
+#judul
+{
+    padding: 20px 0px 20px 40px;
+    background-color: #29a6d2;
+    color: #ffffff;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+}
+
+#cssmenu
+{
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+#cssmenu li
+{
+  color: #ffffff;
+}
+
+#cssmenu p
+{
+  font: 20px;
+  display: block;
+  background: #29a6d2;
+  color: #ffffff;
+  margin-top: 0px;
+  padding: 10px 0px 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#promo
+{
+    background: #333;
+    font: 14px arial;
+    color: #ffffff;
+}
+
+#about
+{
+    background: #333;
+    font: 14px arial;
+    color: #ffffff;
+    padding: 15px 15px 15px 15px;
+}

@@ -1,0 +1,209 @@
+<html>
+	<head>
+		<title> IF Hotel </title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body id="content">
+		<script language="JavaScript" src="script.js"></script>
+		<form name="form">
+		<h3>Form Reservasi</h3>
+			<div>
+				<div id="judul">Informasi Pribadi</div>
+				<div id="form">
+				    <label for="nama">Nama Lengkap <label id="required">*</label></label><br>
+				    <input type="text" name="nama"><br>
+				    <label for="ktp">No KTP <label id="required">*</label></label><br>
+				    <input type="text" name="ktp" maxlength="16"><br>
+				    <label for="email">E-mail <label id="required">*</label></label><br>
+				    <input type="text" name="email"><br>
+				    <label for="hp">No Handphone <label id="required">*</label></label><br>
+				    <input type="text" name="hp" maxlength="12"><br>				
+				    <label for="alamat">Alamat <label id="required">*</label></label><br>
+				    <textarea name="alamat"></textarea><br>
+			    </div>
+
+			    <div id="judul">Informasi Kamar</div>
+				<div id="form">
+					<label for="checkin">Check In <label id="required">*</label></label><br>
+				    <select name="tglin">
+				    	<option value="" disabled selected hidden>Tgl</option>
+				      	<option value="1">01</option>
+				      	<option value="2">02</option>
+				      	<option value="3">03</option>
+				      	<option value="4">04</option>
+				      	<option value="5">05</option>
+				      	<option value="6">06</option>
+				      	<option value="7">07</option>
+				      	<option value="8">08</option>
+				      	<option value="9">09</option>
+				      	<option value="10">10</option>
+				      	<option value="11">11</option>
+				      	<option value="12">12</option>
+				      	<option value="13">13</option>
+				      	<option value="14">14</option>
+				      	<option value="15">15</option>
+				      	<option value="16">16</option>
+				      	<option value="17">17</option>
+				      	<option value="18">18</option>
+				      	<option value="19">19</option>
+				      	<option value="20">20</option>
+				      	<option value="21">21</option>
+				      	<option value="22">22</option>
+				      	<option value="23">23</option>
+				      	<option value="24">24</option>
+				      	<option value="25">25</option>
+				      	<option value="26">26</option>
+				      	<option value="27">27</option>
+				      	<option value="28">28</option>
+				      	<option value="29">29</option>
+				      	<option value="30">30</option>
+				      	<option value="31">31</option>
+				    </select>
+				    <select name="blnin">
+				    	<option value="" disabled selected hidden>Bln</option>
+				      	<option value="Januari">Jan</option>
+				      	<option value="Februari">Feb</option>
+				      	<option value="Maret">Mar</option>
+				      	<option value="April">Apr</option>
+				      	<option value="Mei">Mei</option>
+				      	<option value="Juni">Jun</option>
+				      	<option value="Juli">Jul</option>
+				      	<option value="Agustus">Agu</option>
+				      	<option value="September">Sep</option>
+				      	<option value="Oktober">Okt</option>
+				      	<option value="November">Nov</option>
+				      	<option value="Desember">Des</option>
+				    </select>
+				    <select name="thnin">
+				    	<option value="" disabled selected hidden>Thn</option>
+				      	<option value="2016">2016</option>
+				      	<option value="2017">2017</option>
+				      	<option value="2018">2018</option>
+				      	<option value="2019">2019</option>
+				      	<option value="2020">2020</option>
+				    </select><br>
+
+				    <label for="checkout">Check Out <label id="required">*</label></label><br>
+				    <select name="tglout">
+				    	<option value="" disabled selected hidden>Tgl</option>
+				      	<option value="1">01</option>
+				      	<option value="2">02</option>
+				      	<option value="3">03</option>
+				      	<option value="4">04</option>
+				      	<option value="5">05</option>
+				      	<option value="6">06</option>
+				      	<option value="7">07</option>
+				      	<option value="8">08</option>
+				      	<option value="9">09</option>
+				      	<option value="10">10</option>
+				      	<option value="11">11</option>
+				      	<option value="12">12</option>
+				      	<option value="13">13</option>
+				      	<option value="14">14</option>
+				      	<option value="15">15</option>
+				      	<option value="16">16</option>
+				      	<option value="17">17</option>
+				      	<option value="18">18</option>
+				      	<option value="19">19</option>
+				      	<option value="20">20</option>
+				      	<option value="21">21</option>
+				      	<option value="22">22</option>
+				      	<option value="23">23</option>
+				      	<option value="24">24</option>
+				      	<option value="25">25</option>
+				      	<option value="26">26</option>
+				      	<option value="27">27</option>
+				      	<option value="28">28</option>
+				      	<option value="29">29</option>
+				      	<option value="30">30</option>
+				      	<option value="31">31</option>
+				    </select>
+				    <select name="blnout">
+				    	<option value="" disabled selected hidden>Bln</option>
+				      	<option value="Januari">Jan</option>
+				      	<option value="Februari">Feb</option>
+				      	<option value="Maret">Mar</option>
+				      	<option value="April">Apr</option>
+				      	<option value="Mei">Mei</option>
+				      	<option value="Juni">Jun</option>
+				      	<option value="Juli">Jul</option>
+				      	<option value="Agustus">Agu</option>
+				      	<option value="September">Sep</option>
+				      	<option value="Oktober">Okt</option>
+				      	<option value="November">Nov</option>
+				      	<option value="Desember">Des</option>
+				    </select>
+				    <select name="thnout">
+				    	<option value="" disabled selected hidden>Thn</option>
+				      	<option value="2016">2016</option>
+				      	<option value="2017">2017</option>
+				      	<option value="2018">2018</option>
+				      	<option value="2019">2019</option>
+				      	<option value="2020">2020</option>
+				    </select><br>
+				    <label for="jml_tamu">Jumlah Tamu <label id="required">*</label></label><br>
+			    	<input type="number" name="jml_tamu" min="1"><br>
+				    <label for="kamar">Tipe Kamar <label id="required">*</label></label><br>
+					<div id="check">
+						<input type="radio" name="kamar" value="Deluxe">
+						<label for="deluxe">Deluxe</label>
+						<br>
+						<input type="radio" name="kamar" value="Family">
+						<label for="family">Family</label>
+						<br>
+						<input type="radio" name="kamar" value="Standard">
+						<label for="standard">Standard</label>
+				    </div>
+				    <label for="fasilitas">Fasilitas Tambahan</label><br>
+					<div id="check">
+						<input type="checkbox" name="internet" value="Internet">
+						<label for="Internet">Exclusive Internet</label>
+						<br>
+						<input type="checkbox" name="extrabed" value="Extrabed">
+						<label for="extrabed">Extrabed</label>
+						<br>
+						<input type="checkbox" name="fitness" value="Fitness">
+						<label for="fitness">Fitness</label>
+						<br>
+						<input type="checkbox" name="laundry" value="Laundry">
+						<label for="laundry">Laundry</label>
+				    </div>
+				    <label for="pesan">Pesan Khusus</label><br>
+				    <textarea name="pesan"></textarea><br>
+			    </div>
+			    <input type="button" value="Reservasi" onclick = "input(form)"><br><hr><br>
+
+
+			<div id="judul">Data Informasi Pribadi</div>
+				<div id="form">
+				    <label for="nama">Nama Lengkap</label><br>
+				    <input type="text" name="znama" disabled><br>
+				    <label for="ktp">No KTP</label><br>
+				    <input type="text" name="zktp" disabled><br>
+				    <label for="email">E-mail</label><br>
+				    <input type="text" name="zemail" disabled><br>
+				    <label for="hp">No Handphone</label><br>
+				    <input type="text" name="zhp" disabled><br>				
+				    <label for="alamat">Alamat</label><br>
+				    <textarea name="zalamat" disabled></textarea><br>
+			    </div>
+
+			    <div id="judul">Data Informasi Kamar</div>
+				<div id="form">
+					<label for="checkin">Check In</label><br>
+				    <input type="text" name="zcheckin" disabled><br>
+				    <label for="jml_tamu">Check Out</label><br>
+				    <input type="text" name="zcheckout" disabled><br>
+					<label for="jml_tamu">Jumlah Tamu</label><br>
+				    <input type="text" name="zjml_tamu" disabled><br>
+				    <label for="kamar">Jenis Kamar</label><br>
+				    <input type="text" name="zkamar" disabled><br>
+				    <label for="fasilitas">Fasilitas Tambahan</label><br>
+				    <input type="text" name="zfasilitas" disabled><br>
+				    <label for="pesan">Pesan Khusus</label><br>
+				    <textarea name="zpesan" disabled></textarea><br>
+			    </div>
+			</div>
+		</form>
+	</body>
+</html>
