@@ -1,0 +1,80 @@
+<html>  
+ <head> 
+  <title> Data</title> 
+  <link rel="stylesheet" href="isi.css" type="text/css">
+ </head>
+ <body>
+  <script src="isi.js" type="text/javascript"></script>
+ <hr>
+ <form name="fform"  >
+
+ <table id="h1" title="table judul" > 
+   <tr><th >
+    Pengisian Data
+   </td></th>
+ </table>
+<table title="utama">
+<tr><td>
+ <br>
+ <table id="tb1">
+     <tr><td id="col">NAMA LENGKAP <td> <input type="text" name="namal"  id="namal" class="asal"></td></tr>
+	 <tr><td id="col">NAMA PENDEK  <td> <input type="text" name="namap"  id="namap" class="asal"></td></tr>
+	 <tr><td id="col">JENIS        <td> <input type="radio" name="jenis" value="1">Laki-laki
+	                            <input type="radio" name="jenis" value="2">Perempuan</td></tr>
+	 <tr><td id="col">HOBY         <td> <input type="checkbox" name="hoby1" value="hoby1">hoby1
+	                            <input type="checkbox" name="hoby2" value="hoby2">hoby2</td></tr>
+	 <tr><td>             <td>  <input type="checkbox" name="hoby3" value="hoby3">hoby3
+	                              <input type="checkbox" name="hoby4" value="hoby4">hoby3</td></tr>
+	<tr><td id="col">KOTA LAHIR <td> <input type="text" name="kotal"  id="kotal" class="asal"></td></tr>
+    <tr><td id="col">KOTA TINGGAL <td> <input type="text" name="kotat"  id="kotat" class="asal"></td></tr>	
+	 <tr><td id="col">TGL LAHIR    <td> <input type="number" name="tanggal"  id="tanggal" class="asal" onblur="angka()">
+					           <select size=1 name="bulan" value="bulan" id="bulan" class="asal">
+	 <option>Januari</option>
+	 <option>Februari</option>
+	 <option>Maret</option>
+	 <option>April</option>
+	 <option>Mei</option>
+	 <option>Juni</option>
+	 <option>Juli</option>
+	 <option>Agustus</option>
+	 <option>September</option>
+	 <option>Oktober</option>
+     <option>November</option>
+	 <option>Desember</option>
+						     </select>
+						  <input type="number" name="tahun" value="tahun" id="tahun" class="asal" onblur="bul()"></td></tr>
+     <tr><td id="col">EMAIL        <td> <input type="text" name = "email" value="@email" id="email" class="asal"></td></tr>
+	 <tr><td id="col">PHONE        <td> <input type="tel" name = "phone" id="phone" class="asal"></td></tr>
+	 <tr><td id="col">PASSWORD     <td> <input type="password" name="pass" id="pass" class="asal"></td></tr>
+	 <tr><td id="col">REWRITE PASS <td> <input type="password" name="pass1" id="pass1" class="asal"></td></tr>
+	 <tr><td id="col">ADDRESS      <td> <input type="address" name="address" id="address" class="asal" ></td></tr>
+	 <tr><td id="col">STATUS       <td> <input type="text" name = "stat" id="stat" class="asal"></td></tr>
+	 <tr><td id="col">KETERANGAN   <td> <textarea cols="40" rows="5" name="ket" id="ket" class="asal">
+	 </textarea></td></tr>
+	 </table>
+	 <hr>
+	 <input type="button" value="PROSES" onclick="data()" >
+	 <input type="reset" value="RESET" onclick="res()">
+<td>
+      <h1 id="h11">PROFIL DATA</h1>
+   <table id="tb2" >
+     <tr><td id="col1">NAMA LENGKAP <td> <input type="text" name="znamal" value ="Nama Lengkap" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">NAMA PENDEK  <td> <input type="text" name="znamap"  value ="Nama Panggilan" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">JENIS        <td> <input type="text" name="zjenis" value="Jenis Kelamin" onfocus="foc()" class="asal">
+	 <tr><td id="col1">HOBY         <td> <input type="text" name="zhoby" onfocus="foc()" class="asal">
+	 <tr><td id="col1">KOTA LAHIR   <td> <input type="text" name="zkotal" value="Kota Lahir" onfocus="foc()" class="asal"></td></tr>
+     <tr><td id="col1">KOTA TINGGAL <td> <input type="text" name="zkotat" value="Kota Tinggal" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">TGL LAHIR    <td> <input type="text" name="ztanggal" value="tanggal" onfocus="foc()" class="asal">
+     <tr><td id="col1">EMAIL        <td> <input type="text" name = "zemail" value="@email" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">PHONE        <td> <input type="text" name = "zphone" onfocus="foc()" class="asal" class="asal"></td></tr>
+	 <tr><td id="col1">PASSWORD     <td> <input type="text" name="zpass" value="Password" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">ADDRESS      <td> <input type="text" name="zaddress"value="Address" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">STATUS       <td> <input type="text" name = "zstat" value="Status" onfocus="foc()" class="asal"></td></tr>
+	 <tr><td id="col1">KETERANGAN   <td> <textarea cols="40" rows="5"  name = "zket" value="keterangan.." onfocus="foc()" class="asal"></textarea></td></tr>
+</table>
+</td></td>	
+</table>
+	</form>
+ </body> 
+</html>
+ 

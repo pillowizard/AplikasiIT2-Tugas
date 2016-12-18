@@ -1,0 +1,50 @@
+body
+{
+background-color:rgb(180,180,180);
+text-align:center;
+}
+#h1
+{
+background:rgb(100,180,100);
+padding:5px 5px;
+font-family:bauhaus 93;
+color:white;
+}
+
+tr:hover
+{
+background-color:rgb(230,230,230);
+}
+
+table,td
+{
+padding:5px 10px;
+font-family:bauhaus 93;
+}
+
+table#id
+{
+background-color:rgb(200,200,200);	
+}
+
+td
+{
+border:1px solid rgb(210,210,210);
+text-align:center;
+}
+
+input[type=button],[type=reset],button
+{
+background:rgb(80,80,80);
+padding:10px 20px;
+border:none;
+color:white;
+font-family:bauhaus 93;
+
+}
+input[type=button]:hover,[type=reset]:hover,button:hover
+{
+background-color:rgb(0,200,0);
+box-shadow:5px 5px rgb(150,150,150);
+
+}

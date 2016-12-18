@@ -1,0 +1,87 @@
+<html> 
+ <head> 
+   <title>HOME</title>
+   <link rel="stylesheet" href="hotel.css" type="text/css">
+ </head>
+ <body onload="auto(1)">
+ <script src = "hotel.js" type="text/javascript"></script>
+ <table >
+ <tr><td colspan="3"> <h1>HOTEL</h1></td></tr>
+ <tr>
+  <td>
+  <td id="idf"><img src = "hotel/1h.jpg" name="pic" ><td>
+  </td>
+ </tr>
+ </table>
+  <hr color = "lightblue">
+ <form name="fform">
+<center>
+ <hr color = "lightblue">
+ <table id="id"> 
+ <tr><td> <h1>PESAN KAMAR</h1></td></tr>
+   <tr><td colspan="1" id="th1">DESTINASI</td></tr>
+   <tr><td>Daerah :<td></td></tr>
+   <tr><td colspan="3"><input type="text" name="asal1" id="asal1" class="asal"></td></tr>
+   <tr><td></td></tr>
+   <tr><td colspan="1" id="th2">KONDISI</td></tr>
+   <tr><td>Tanggal check-in :<td></td></tr>
+   <tr><td colspan="3"><input type="number" name="tanggal" id="tanggal" class="asal" onblur="angka()">||
+   					           <select size=1 name="bulan" value="bulan" id="bulan" class="asal"  >
+	 <option>Januari</option>
+	 <option>Februari</option>
+	 <option>Maret</option>
+	 <option>April</option>
+	 <option>Mei</option>
+	 <option>Juni</option>
+	 <option>Juli</option>
+	 <option>Agustus</option>
+	 <option>September</option>
+	 <option>Oktober</option>
+     <option>November</option>
+	 <option>Desember</option>
+						     </select>||<input type="number" name="tahun" id="tahun" class="asal" onblur="bul()">
+	</td></tr>
+	   <tr><td>Tanggal check-out :<td></td></tr>
+   <tr><td colspan="3"><input type="number" name="tanggal1" id="tanggal1" class="asal" onblur="angka1()">||
+   					           <select size=1 name="bulan1" value="bulan" id="bulan1" class="asal">
+	 <option>Januari</option>
+	 <option>Februari</option>
+	 <option>Maret</option>
+	 <option>April</option>
+	 <option>Mei</option>
+	 <option>Juni</option>
+	 <option>Juli</option>
+	 <option>Agustus</option>
+	 <option>September</option>
+	 <option>Oktober</option>
+     <option>November</option>
+	 <option>Desember</option>
+						     </select>||<input type="number" name="tahun1" id="tahun1" class="asal" onblur="bul1()"></td></td>
+  <tr><td></td></tr>
+   <tr><td colspan="1" id="th3">PESAN KAMAR</td></tr>
+      <tr><td colspan="1"><input type="radio" name="orang" value="berangkat">1 orang</td></tr>
+	  <tr><td colspan="1"><input type="radio" name="orang" value="berangkat">2 orang</td></tr>
+	  <tr><td colspan="1"><input type="radio" name="orang" value="berangkat">3 orang</td></tr>
+	  <tr><td colspan="1"><input type="radio" name="orang" value="berangkat">4 orang</td></tr>
+   <tr><td><br></td></td>
+ </table> 
+ <hr>
+ <input type="button" value="kirim" onclick="uji()">
+<input type="reset" value="reset" onclick="res()">
+ </form>
+ <hr>
+<table >
+<tr><td id="p">
+<p id="judul"></p>
+<p id="1"></p>
+<p id="2"></p>
+<p id="3"></p>
+<p id="4"></p>
+
+</td></tr>
+</table> 
+</center>
+
+
+ </body>
+</html>

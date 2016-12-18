@@ -1,0 +1,97 @@
+input[type=button]
+{
+font-size:30pt;	
+border:none;
+color:white;
+width:50px;
+height:50px;
+font-family:banhaus 93;
+text-align:center;
+box-shadow:4px 2px 4px rgb(100,100,100);
+}
+
+input[type=button][name = "hit"]
+{
+background:rgb(230,10,10);
+}
+
+input[type=button][name = "hit1"]
+{
+background:rgb(130,110,230);
+}
+
+input[type=button][name = "hit2"]
+{
+background:rgb(150,210,110);
+}
+
+input[type=button][name = "hit3"]
+{
+background:rgb(230,210,110);
+}
+
+input[type=button][name = "hit"]:hover
+{
+background:rgb(220,10,0);
+}
+
+input[type=button][name = "hit1"]:hover
+{
+background:rgb(130,110,200);
+}
+
+input[type=button][name = "hit2"]:hover
+{
+background:rgb(150,210,80);
+}
+
+input[type=button][name = "hit3"]:hover
+{
+background:rgb(230,210,80);
+}
+
+
+
+input[type=text]
+{
+border-radius:2px;
+width:400px;
+height:50px;
+border:none;
+background-color:rgb(256,190,0);
+color:white;
+font-size:30pt;
+}
+
+input[type=text]:hover
+{
+background:rgb(256,120,0);
+}
+
+input[type=text][name = "zhasil"]:hover
+{
+background:rgb(226,120,180);
+}
+
+input[type=text][name = "zhasil"]
+{
+background:rgb(210,120,160);
+}
+
+#id
+{
+	background:rgb(170,170,170);
+	width:60px;
+	color:white;
+	font-size:20pt;
+}
+
+h1
+{
+background:rgb(80,80,80);
+color:white;
+border-radius:20px;
+text-align:center;
+}
+
+

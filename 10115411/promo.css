@@ -1,0 +1,32 @@
+marquee
+{
+font-size:18pt;	
+background:rgb(30,30,30);
+color:rgb(256,50,50);
+font-family:arial;
+text-align:center;
+position:absolte;
+bottom:502px;
+box-shadow:8px 5px 8px rgb(100,100,100);
+}
+
+img
+{
+width:750pt;
+height:300pt;
+border-radius:10px;
+box-shadow:20px 10px rgb(150,150,150);
+border:2px solid black;
+}
+
+body
+{
+background:rgb(254,190,190);
+}
+
+h1
+{
+text-align:center;
+background:white;
+border-radius:10px;
+}

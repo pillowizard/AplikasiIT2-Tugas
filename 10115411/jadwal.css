@@ -1,0 +1,117 @@
+body
+{
+background:rgb(180,180,180);	
+}
+
+button
+{
+	border-radius:100px;
+	width:50px;
+	height:50px;
+}
+textarea
+{
+width:600px;
+height:100px;
+border:none;
+background-color:rgb(186,150,120);
+color:white;
+font-size:15pt;
+}
+
+texarea:hover
+{
+background:rgb(256,120,0);
+}
+
+#id,#id1,#id2,#id3,#id4
+{
+	width:60px;
+	color:white;
+	font-size:30pt;
+	border:none;
+	font-family:algerian;
+	text-align:center;
+}
+#id
+{
+	background:rgb(110,110,170);
+	border:2px solid black;
+}
+#id1
+{
+	background:rgb(110,110,250);
+	border:2px solid black;
+}
+#id2
+{
+	background:rgb(10,200,10);
+	border:2px solid black;
+}
+#id3
+{
+	background:rgb(130,140,130);
+	border:2px solid black;
+}
+#id4
+{
+	background:rgb(10,10,10);
+	border:2px solid black;
+}
+h1
+{
+background:rgb(80,80,80);
+color:white;
+padding:20px;
+border-radius:20px;
+text-align:center;
+}
+
+td
+{
+border:none;
+}
+
+#but,#but1
+{
+font-size:20pt;
+color:white;
+}
+
+
+#but1
+{
+background:rgb(250,160,160);
+position:fixed;
+right:80px;
+top:500px;	
+border:3px solid black;
+}
+#but1:hover
+{
+background:rgb(250,140,140);
+position:fixed;
+right:80px;
+top:500px;	
+}
+#but
+{
+background:rgb(160,250,160);	
+position:fixed;
+right:130px;
+top:500px;
+border:3px solid black;
+}
+#but:hover
+{
+background:rgb(140,250,140);	
+position:fixed;
+right:130px;
+top:500px;
+}
+#but:hover,#but1:hover
+{
+font-size:20pt;
+color:white;	
+}
+
